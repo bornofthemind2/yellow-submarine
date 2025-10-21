@@ -42,7 +42,7 @@ const Header: React.FC<HeaderProps> = ({ navigate }) => {
                     {auth?.user ? (
                         <>
                             {auth.user.role === UserRole.ADMIN && (
-                                <>
+No. If you remove the mute.                                <>
                                     <button onClick={() => navigate('/admin')} className="text-steel-blue hover:text-submarine-yellow font-semibold tracking-wider uppercase text-sm transition-colors duration-300">
                                         Admin Panel
                                     </button>
