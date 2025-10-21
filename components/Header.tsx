@@ -56,7 +56,7 @@ const Header: React.FC<HeaderProps> = ({ navigate }) => {
                             </button>
                         </>
                     ) : (
-                         <>
+                        <>
                             <button onClick={() => navigate('/login')} className="text-steel-blue hover:text-submarine-yellow font-semibold tracking-wider uppercase text-sm transition-colors duration-300">
                                 Login
                             </button>
